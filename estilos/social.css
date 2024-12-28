@@ -1,28 +1,29 @@
-@charset "UTF-8";
+@charset "UTF-8"; /* Declara a codificação de caracteres como UTF-8. */
 
 * {
-    margin: 0px;
-    padding: 0PX;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px; /* Remove todas as margens de todos os elementos. */
+    padding: 0px; /* Remove todos os preenchimentos internos de todos os elementos. */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão como Arial, com Helvetica como alternativa e sans-serif como fallback. */
 }
 
 ::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
+    width: 0px; /* Remove a barra de rolagem vertical ao definir sua largura como 0px (somente navegadores baseados no WebKit). */
+    height: 0px; /* Remove a barra de rolagem horizontal ao definir sua altura como 0px (somente navegadores baseados no WebKit). */
 }
 
 img {
-    width: 100vw;
-
-    }
-a {
-    display: block;
-    background-color: darkred;
-    padding: 20px;
-    text-align: center;
-    font-weight: bolder;
-    text-decoration: none;
+    width: 100vw; /* Define a largura da imagem para ocupar 100% da largura da janela do navegador. */
 }
+
+a {
+    display: block; /* Faz os links ocuparem uma linha inteira, tornando-os elementos de bloco. */
+    background-color: darkred; /* Define a cor de fundo do link como vermelho escuro. */
+    padding: 20px; /* Adiciona um espaço interno de 20px ao redor do conteúdo do link. */
+    text-align: center; /* Centraliza o texto dentro do link horizontalmente. */
+    font-weight: bolder; /* Define o texto como mais negrito que o padrão (`bold`). */
+    text-decoration: none; /* Remove o sublinhado padrão dos links. */
+}
+
 a:hover {
-    background-color: red;
+    background-color: red; /* Altera a cor de fundo do link para vermelho ao passar o mouse. */
 }
